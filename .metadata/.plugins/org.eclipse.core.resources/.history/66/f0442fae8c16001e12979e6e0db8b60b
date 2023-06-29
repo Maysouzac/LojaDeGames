@@ -1,0 +1,9 @@
+package com.generation.lojadegames.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.generation.lojadegames.model.Produtos;
+
+public interface PostagemRepository extends JpaRepository<Produtos, Long>{
+
+}
